@@ -1,1 +1,1 @@
-web: gunicorn moonsrecipeapp.wsgi
+web: gunicorn DJANGORECIPEAPP.wsgi --log-file -
