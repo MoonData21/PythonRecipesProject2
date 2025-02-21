@@ -1,1 +1,1 @@
-web: gunicorn DJANGORECIPEAPP.wsgi --log-file -
+web: gunicorn DjangoRecipeApp.wsgi --log-file -
