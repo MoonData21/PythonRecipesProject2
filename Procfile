@@ -1,1 +1,1 @@
-web: gunicorn DjangoRecipeApp.wsgi
+web: gunicorn moonsrecipeapp.wsgi
