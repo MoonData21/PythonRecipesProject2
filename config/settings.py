@@ -12,7 +12,7 @@ https://docs.djangoproject.com/en/5.1/ref/settings/
 
 from pathlib import Path
 import os
-import django_heroku
+# import django_heroku
 
 # Build paths inside the project like this: BASE_DIR / 'subdir'.
 BASE_DIR = Path(__file__).resolve().parent.parent
@@ -27,7 +27,7 @@ SECRET_KEY = "django-insecure-)nu=p14uax2mq)uc80st@ki43_k_pj-gp!39bt-882o4(5pgmq
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ['localhost', '127.0.0.1', '*.herokuapp.com']
+ALLOWED_HOSTS = ['localhost', '127.0.0.1']
 
 
 # Application definition
@@ -92,7 +92,7 @@ DATABASES = {
     }
 }
 
-django_heroku.settings(locals())
+# django_heroku.settings(locals())
 # BASE_DIR / "db.sqlite3",
 
 # Password validation
